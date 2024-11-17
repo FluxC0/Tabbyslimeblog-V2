@@ -1,0 +1,28 @@
+body {
+  background-color: #000;
+  color: white;
+}
+
+
+.navitem ol {
+  list-style-type: none;
+  padding-left: 0;
+
+}
+
+nav {
+  border-bottom: 3px solid white;
+}
+
+
+.nav {
+  display: inline-block;
+}
+
+.nav a::after {
+  display: inline-block;
+  color: white;
+  content: '|';
+  font-weight: bold;
+  padding: 0 3px;
+}
